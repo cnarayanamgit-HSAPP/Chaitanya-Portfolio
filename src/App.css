@@ -68,7 +68,7 @@ nav button {
 
 nav button.active {
   background: var(--accent-color);
-  color: #0f172a;
+  color: #1c1917; /* Updated to match coffee dark background */
   border-color: var(--accent-color);
 }
 
@@ -122,7 +122,7 @@ nav button:hover {
 
 /* Expertise Card Styling */
 .expertise-card {
-  background: #0f172a; /* Slightly darker inner card */
+  background: var(--bg-color); /* Updated to use variable */
   border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 1.25rem;
@@ -168,7 +168,7 @@ nav button:hover {
 }
 
 .skill-tag {
-  background: #0f172a;
+  background: var(--bg-color); /* Updated to use variable */
   border: 1px solid var(--border-color);
   color: var(--accent-color);
   padding: 0.4rem 0.8rem;
@@ -179,7 +179,7 @@ nav button:hover {
 
 /* Projects Section */
 .project-item {
-  background: #0f172a;
+  background: var(--bg-color); /* Updated to use variable */
   border: 1px solid var(--border-color);
   padding: 1rem 1.25rem;
   border-radius: 8px;
@@ -200,12 +200,12 @@ nav button:hover {
 }
 
 .linkedin-link a {
-  color: #facc15; /* Bright yellow color */
+  color: var(--accent-color); /* Harmonized with coffee accent color */
   text-decoration: underline;
   font-weight: 600;
   transition: color 0.2s ease;
 }
 
 .linkedin-link a:hover {
-  color: #fde047; /* Slightly lighter yellow on hover */
+  color: var(--accent-hover);
 }
