@@ -1,11 +1,11 @@
 :root {
-  --bg-color: #18181b;       /* Dark charcoal background */
-  --card-bg: #27272a;        /* Slightly lighter card background */
-  --text-primary: #f4f4f5;   /* Crisp white text */
-  --text-secondary: #a1a1aa; /* Muted gray text */
-  --accent-color: #eab308;   /* Bright yellow for highlights/accents */
-  --accent-hover: #ca8a04;   /* Darker yellow for hover states */
-  --border-color: #3f3f46;   /* Subtle border */
+  --bg-color: #1c1917;       /* Rich dark espresso background */
+  --card-bg: #292524;        /* Warm dark brown for cards */
+  --text-primary: #f5f5f4;   /* Cream/off-white text */
+  --text-secondary: #a8a29e; /* Muted warm gray text */
+  --accent-color: #d97706;   /* Warm amber/coffee-caramel accent */
+  --accent-hover: #b45309;   /* Deeper caramel for hover */
+  --border-color: #44403c;   /* Warm brown border */
 }
 
 body {
